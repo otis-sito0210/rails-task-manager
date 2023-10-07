@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+/* Your CSS file */
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.task-row {
+  display: flex; /* Display children inline */
+  align-items: center; /* Vertically center elements */
+  margin-bottom: 10px; /* Optional margin for spacing between tasks */
+}
+
+.task-checkbox {
+  margin-right: 10px; /* Add spacing between checkbox and title */
+}
+
+.task-title {
+  font-size: 18px; /* Adjust the font size as needed */
+  /* font-weight: bold; Make the text bold if desired */
+  color: #333; /* Set the text color to your preference */
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
